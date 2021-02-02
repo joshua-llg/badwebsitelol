@@ -1,0 +1,61 @@
+@import url('https://font.googleapis.com/css')
+
+:root {
+	background: 
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+
+.content {
+	height: 200vh;
+	background-color: #221f1f;
+	background-blend-mode: multiply;
+	display: grid;
+	background-image: url('earth.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+/* navigation style start here */
+
+header {
+	text-align: center;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	background: palegreen;
+}
+
+
+a {
+	color: #221f1f;
+	font-size: 1em;
+	align: left;
+}
+
+
+nav ul{
+	background: palegreen;
+    
+}
+
+
+nav li {
+  
+	display: inline;
+	padding: 15px;
+	color: black;
+}
+
+
